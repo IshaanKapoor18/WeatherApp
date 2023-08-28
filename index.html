@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App (ALL)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+        <div class="container">
+        <!-- date and current time  -->
+        <h1 id="TimeDate" style="color: whitesmoke;margin-bottom: 2%;"></h1>
+
+            <!-- searchBar text input and searchBar button -->
+            <div class="searchBar">
+                <input type="text" placeholder="Enter City Name...">
+                <button onclick="SoundClick()">
+                    <img src="./support-image/Search-icon.png" alt="Search" width="20px">
+                </button>
+            </div>
+           
+             <!-- the result data of the Weather -->
+            <div class="result">
+                
+                <img src="./support-image/snow-weather.avif" alt="" width="50%" id="MainW">
+                
+                <h1 class="temp" id="temp">--°C</h1>
+                <h2 class="city" id="city">--- ----</h2>
+
+                <h3 id="FeelLike">Feels Like: --°C</h3>
+
+                <h4 style="padding: 0; color: aliceblue;" >
+                    <p><img src="./Temp-support-image/humidity-image.png" alt="" width="20px"></p>
+                    <p id="Humidity">Humidity: --%</p>
+                    <p><img src="./Temp-support-image/wind-image.jpg" alt="" width="50px"></p>
+                    <p id="wind">Wind: --.-- Km/hr</p>
+
+                    <p id="Pressure">Pressure : ---</p>
+                </h4>
+                   
+                <!-- max and min temperature  -->
+                <div class="TempRange">
+                    <img  src="./Temp-support-image/Temp-image.png" alt="" width="20px" id="temp-image">
+                    <label for="temp-image"><h1 id="Max_temp">Max temperature = --°C</h1></label>
+                    <label for="temp-image"><h1 id="Min_temp">Min temperature = --°C</h1></label>
+                </div>
+            </div>
+
+
+
+        </div>
+        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+        <script src="./Functional-component/Working-component/App.js"></script>
+</body>
+</html>

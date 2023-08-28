@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(148, 183, 248);
+}
+
+
+/* box of the wather App  */
+.container{
+   
+    background: linear-gradient(120deg, rgba(61, 59, 59, 0.438), rgba(86, 179, 233, 0.904));
+    margin-top: 5% ;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 40px 40px;
+    border-radius: 20px;
+    border-style: inset;
+    border-width: 2px;
+    border-color: rgb(112, 112, 236);
+    text-align: center;
+}
+
+/* search of the city  */
+.searchBar{
+    width: 91%;
+    
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchBar input{
+    border: 0;
+    
+    width: 91%;
+    background-color: rgb(173, 200, 240);
+    color: rgb(0, 0, 0);
+    height: 15%;
+    padding: 10px ;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.searchBar button{
+    border: 0;
+    width: 30%;
+    max-width: 70px;
+    background-color: rgb(173, 200, 240);
+    color: black;
+    padding: 10px ;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.result img{
+    padding: 20px;
+    margin-top: 5%;
+    mix-blend-mode: color-burn;
+}
+
+#Max_temp{
+    font-size: larger;
+}
+
+#Min_temp{
+    font-size: larger;
+}
+
+#FeelLike{
+    color: white;
+}
+
+#TimeDate{
+    font-size: larger;
+}
+
+.subbox{
+    margin-top: 5%;
+    
+    padding-right: 5%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
