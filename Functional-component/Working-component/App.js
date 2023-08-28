@@ -64,7 +64,7 @@ function PlaceItems(Datafetched) {
     document.getElementById("Pressure").innerText = p;
     const max = "Max temperature = "+Temp_max+"°C";
     document.getElementById("Max_temp").innerText = max;
-    const min = "Max temperature = "+Temp_min+"°C";
+    const min = "Min temperature = "+Temp_min+"°C";
     document.getElementById("Min_temp").innerText = min;
     
     var check = weather.toLowerCase();
